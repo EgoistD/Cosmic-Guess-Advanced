@@ -24,5 +24,6 @@ Win, and you get +1000 Aura Points because why not. 🌟
 - Put sound files (launch.mp3, alarm.mp3, victory.mp3, fail.mp3, or your own memes) in the same folder as index.html.
 - Open index.html in your browser.
 - Laugh, cry, and get Rickrolled.
+- OR you can just copy and paste this URL in browser - https://egoistd.github.io/Cosmic-Guess-Advanced/ 
 
 
