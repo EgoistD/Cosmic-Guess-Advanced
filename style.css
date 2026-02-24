@@ -1,0 +1,131 @@
+/* Global body styling */
+body {
+  background: #0b0c10;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;       /* full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-y: auto;        /* allow scrolling if content grows */
+}
+
+/* Starfield canvas behind everything */
+#starfield {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #000;
+}
+
+/* Header with centered title and top-right timer */
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #00ffcc;
+  text-shadow: 0 0 15px #00ffff;
+  font-size: 40px;
+  margin: 0;
+}
+
+#timer {
+  position: fixed;   /* anchor to screen */
+  top: 20px;
+  right: 30px;
+  font-size: 32px;   /* bigger timer */
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 0 0 15px #ff0000;
+  z-index: 10;       /* keep above canvas */
+}   
+
+/* Intro text */
+#intro {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #f0f0f0;
+}
+
+/* Game container */
+.game-container {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 20px; /* bigger text */
+  margin-bottom: 30px; /* breathing room below */
+}
+
+/* Input box styling */
+#guessInput {
+  font-size: 24px;   /* bigger text */
+  padding: 14px 18px; /* bigger box */
+  width: 240px;       /* wider input */
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid #45a29e;
+  box-shadow: 0 0 12px #45a29e;
+  margin: 10px 0;
+}
+
+/* Buttons with glowing effects */
+button {
+  font-size: 20px;
+  padding: 12px 20px;
+  margin: 8px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  box-shadow: 0 0 15px #00c6ff;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 25px #00ffff;
+}
+
+#startBtn {
+  background: linear-gradient(135deg, #ff6a00, #ee0979);
+  box-shadow: 0 0 15px #ff6a00;
+}
+
+#startBtn:hover {
+  box-shadow: 0 0 25px #ff4500;
+}
+
+#warpDrive {
+  background: linear-gradient(135deg, #00ffcc, #0099ff);
+  box-shadow: 0 0 15px #00ffcc;
+}
+
+#warpDrive:hover {
+  box-shadow: 0 0 25px #00ffff;
+}
+
+#playAgain {
+  background: linear-gradient(135deg, #ff00cc, #333399);
+  box-shadow: 0 0 15px #ff00cc;
+}
+
+#playAgain:hover {
+  box-shadow: 0 0 25px #ff00ff;
+}
+
+/* Feedback and scoreboard spacing */
+#message, #scoreboard, #fuelCell, #cosmicEvent {
+  margin-top: 20px;
+  font-size: 22px;
+}
