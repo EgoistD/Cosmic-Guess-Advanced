@@ -6,21 +6,15 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Starfield canvas background -->
   <canvas id="starfield"></canvas>
-  
-  <!-- Header with centered title and top-right timer -->
 <header>
   <h1>🚀 Cosmic Guess Advanced</h1>
 </header>
 
 <div id="timer">⏱ Time left: --s</div>
 
-
-  <!-- Intro -->
   <p id="intro">Guess the hidden number before your rocket runs out of fuel and time!</p>
   
-  <!-- Game Controls -->
   <div class="game-container">
     <button id="startBtn" onclick="startGame()">🚀 Start Mission</button>
     <br><br>
@@ -47,25 +41,20 @@
     <button id="playAgain" style="display:none;" onclick="restartGame()">Play Again</button>
     <button id="warpDrive" onclick="useWarpDrive()">⚡ Warp Drive Hint (-2 Fuel)</button>
   </div>
-  
-  <!-- Game Feedback -->
   <div id="message">Click 🚀 Start Mission to begin!</div>
   <div id="scoreboard">🏆 Best Score: None yet</div>
 
-  <!-- Fuel Cell Bonus (hidden until spawned) -->
   <div id="fuelCell" style="display:none;">🔋 Fuel Cell! Click me!</div>
 
-  <!-- Cosmic Event Notifications -->
   <div id="cosmicEvent" style="display:none;"></div>
 
-  <!-- Confetti library -->
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
-  
-  <!-- Game logic -->
+
   <script src="script.js"></script>
 <audio id="soundLaunch" src="launch.mp3" preload="auto"></audio>
 <audio id="soundAlarm" src="alarm.mp3" preload="auto"></audio>
 <audio id="soundVictory" src="victory.mp3" preload="auto"></audio>
 <audio id="soundFail" src="fail.mp3" preload="auto"></audio>
 </body>
+
 </html>
