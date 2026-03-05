@@ -8,7 +8,7 @@ Win, and you get +1000 Aura Points because why not. 🌟
 - Guess the secret number before your fuel or time runs out.
 - Too high? Too low? The game roasts you with cosmic sass.
 - Victory = confetti + funny sounds + Aura Points.
-- Failure = 💥 explosion + Rick Astley.
+- Failure = rickroll.
 
 ✨ Features
 -  Fuel System: Every guess burns fuel. Run out = boom.
