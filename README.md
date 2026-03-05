@@ -1,6 +1,5 @@
 🚀 Cosmic Guess Advanced
-Welcome to Cosmic Guess Advanced — the dumbest, funniest, most chaotic number‑guessing game in the galaxy.
-You’re not just guessing numbers… you’re burning rocket fuel, dodging meteors, flexing warp drives, and risking a RickRoll if you fail.
+Welcome to Cosmic Guess Advanced —
 Win, and you get +1000 Aura Points because why not. 🌟
 
 🎮 How to Play
