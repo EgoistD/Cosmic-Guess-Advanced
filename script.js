@@ -1,13 +1,13 @@
 let numberToGuess;
 let attempts;
-let maxRange = 50; // default difficulty
+let maxRange = 50; 
 let fuel;
 let maxFuel = 10;
 let timer;
-let timeLeft = 20; // default timer
-let initialTimeLimit = 20; // store chosen limit
+let timeLeft = 20;
+let initialTimeLimit = 20; 
 let achievements = JSON.parse(localStorage.getItem("achievements")) || {};
-let gameStarted = false; // track if game has started
+let gameStarted = false;
 
 function playSound(id) {
   const sound = document.getElementById(id);
@@ -30,7 +30,7 @@ function startGame() {
   updateScoreboard();
   startTimer();
   gameStarted = true;
-  playSound("soundLaunch"); // 🚀 launch sound
+  playSound("soundLaunch");
 }
 
 function setDifficulty() {
@@ -120,7 +120,7 @@ function startTimer() {
 
  if (timeLeft === 5) {
   timerDisplay.classList.add("low-time");
-  playSound("soundAlarm"); // play once at 5s
+  playSound("soundAlarm");
 } else if (timeLeft < 5) {
   timerDisplay.classList.add("low-time");
 } else {
@@ -267,7 +267,6 @@ function rickRoll() {
   window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 }
 
-// Allow Enter key to submit guess
 document.addEventListener("DOMContentLoaded", () => {
   const guessInput = document.getElementById("guessInput");
   guessInput.addEventListener("keyup", function(event) {
@@ -275,7 +274,6 @@ document.addEventListener("DOMContentLoaded", () => {
       checkGuess();
     }
   });
-
-  // Start starfield animation on load
   starfield();
+
 }); 
