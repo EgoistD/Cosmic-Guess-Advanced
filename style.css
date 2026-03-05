@@ -1,4 +1,3 @@
-/* Global body styling */
 body {
   background: #0b0c10;
   color: white;
@@ -6,15 +5,13 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
-  min-height: 100vh;       /* full viewport height */
+  min-height: 100vh;   
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  overflow-y: auto;        /* allow scrolling if content grows */
+  overflow-y: auto;   
 }
-
-/* Starfield canvas behind everything */
 #starfield {
   position: fixed;
   top: 0;
@@ -25,7 +22,6 @@ body {
   background: #000;
 }
 
-/* Header with centered title and top-right timer */
 header {
   padding: 20px;
   text-align: center;
@@ -39,46 +35,39 @@ header h1 {
 }
 
 #timer {
-  position: fixed;   /* anchor to screen */
+  position: fixed;  
   top: 20px;
   right: 30px;
-  font-size: 32px;   /* bigger timer */
+  font-size: 32px; 
   color: #ffffff;
   font-weight: bold;
   text-shadow: 0 0 15px #ff0000;
-  z-index: 10;       /* keep above canvas */
+  z-index: 10;      
 }   
 
-/* Intro text */
 #intro {
   font-size: 22px;
   margin-bottom: 20px;
   color: #f0f0f0;
 }
-
-/* Game container */
 .game-container {
   margin-top: 20px;
   padding: 20px;
   border-radius: 10px;
   display: inline-block;
-  font-size: 20px; /* bigger text */
-  margin-bottom: 30px; /* breathing room below */
+  font-size: 20px;
+  margin-bottom: 30px; 
 }
-
-/* Input box styling */
 #guessInput {
-  font-size: 24px;   /* bigger text */
-  padding: 14px 18px; /* bigger box */
-  width: 240px;       /* wider input */
+  font-size: 24px;  
+  padding: 14px 18px;
+  width: 240px;    
   text-align: center;
   border-radius: 8px;
   border: 2px solid #45a29e;
   box-shadow: 0 0 12px #45a29e;
   margin: 10px 0;
 }
-
-/* Buttons with glowing effects */
 button {
   font-size: 20px;
   padding: 12px 20px;
@@ -123,9 +112,8 @@ button:hover {
 #playAgain:hover {
   box-shadow: 0 0 25px #ff00ff;
 }
-
-/* Feedback and scoreboard spacing */
 #message, #scoreboard, #fuelCell, #cosmicEvent {
   margin-top: 20px;
   font-size: 22px;
+
 }
