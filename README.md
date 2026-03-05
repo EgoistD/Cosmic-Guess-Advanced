@@ -1,6 +1,6 @@
 🚀 Cosmic Guess Advanced
 Welcome to Cosmic Guess Advanced —
-Win, and you get +1000 Aura Points because why not. 🌟
+Win, and you get +1000 Aura Points because why not. 
 
  How to Play
 - Hit Start Mission to launch your rocket (with a “fahhh” sound).
