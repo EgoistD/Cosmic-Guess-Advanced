@@ -2,14 +2,14 @@
 Welcome to Cosmic Guess Advanced —
 Win, and you get +1000 Aura Points because why not. 🌟
 
-🎮 How to Play
+ How to Play
 - Hit Start Mission to launch your rocket (with a “fahhh” sound).
 - Guess the secret number before your fuel or time runs out.
 - Too high? Too low? The game roasts you with cosmic sass.
 - Victory = confetti + funny sounds + Aura Points.
 - Failure = rickroll.
 
-✨ Features
+ Features
 -  Fuel System: Every guess burns fuel. Run out = boom.
 -  Timer: Tick‑tock, don’t choke.
 -  Cosmic Events: Meteors, aliens, solar boosts — chaos everywhere.
