@@ -18,7 +18,7 @@ Win, and you get +1000 Aura Points because why not. 🌟
 -  Cheat Code: Enter 42 three times to unlock God Mode.
 -  Aura Points: Win and flex with +1000 Aura Points.
 
-🛠 Setup
+ Setup
 - Clone or download the project.
 - Put sound files (launch.mp3, alarm.mp3, victory.mp3, fail.mp3, or your own memes) in the same folder as index.html.
 - Open index.html in your browser.
