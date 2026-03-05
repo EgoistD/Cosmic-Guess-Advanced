@@ -11,13 +11,13 @@ Win, and you get +1000 Aura Points because why not. 🌟
 - Failure = 💥 explosion + Rick Astley.
 
 ✨ Features
-- 🚀 Fuel System: Every guess burns fuel. Run out = boom.
-- ⏱ Timer: Tick‑tock, don’t choke.
-- 🌌 Cosmic Events: Meteors, aliens, solar boosts — chaos everywhere.
-- ⚡ Warp Drive: Spend fuel for a hint.
-- 🎉 Achievements: Unlock silly badges like “Fuel Saver” and “Speedster.”
-- 👾 Cheat Code: Enter 42 three times to unlock God Mode.
-- 🌟 Aura Points: Win and flex with +1000 Aura Points.
+-  Fuel System: Every guess burns fuel. Run out = boom.
+-  Timer: Tick‑tock, don’t choke.
+-  Cosmic Events: Meteors, aliens, solar boosts — chaos everywhere.
+-  Warp Drive: Spend fuel for a hint.
+-  Achievements: Unlock silly badges like “Fuel Saver” and “Speedster.”
+-  Cheat Code: Enter 42 three times to unlock God Mode.
+-  Aura Points: Win and flex with +1000 Aura Points.
 
 🛠 Setup
 - Clone or download the project.
